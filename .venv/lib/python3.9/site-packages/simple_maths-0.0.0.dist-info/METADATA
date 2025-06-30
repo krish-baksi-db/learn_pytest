@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: simple_maths
+Version: 0.0.0
+Summary: dummy maths tool for learning testing with CI CD
+Platform: linux
+Platform: osx
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: numpy

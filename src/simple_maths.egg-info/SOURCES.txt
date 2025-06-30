@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/simple_maths/__init__.py
+src/simple_maths/simple_maths.py
+src/simple_maths.egg-info/PKG-INFO
+src/simple_maths.egg-info/SOURCES.txt
+src/simple_maths.egg-info/dependency_links.txt
+src/simple_maths.egg-info/requires.txt
+src/simple_maths.egg-info/top_level.txt
+test/test_simple_maths.py

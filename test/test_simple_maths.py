@@ -1,4 +1,4 @@
-from src.simple_maths.simple_maths import sum, difference, average
+from simple_maths.simple_maths import sum, difference, average
 
 
 def test_sum():
@@ -7,7 +7,6 @@ def test_sum():
     assert sum(0, 0) == 0
     assert sum(5, 4) == 9
     assert sum(4., 5.) == 9.
-
 
 
 def test_difference():
@@ -19,5 +18,5 @@ def test_difference():
 
 def test_average():
     assert average([1., 1, 2, 2]) == 1.5
-    assert average([]) == None
+    assert average([]) is None
     assert average([1]) == 1

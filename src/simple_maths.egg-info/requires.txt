@@ -1,1 +1,8 @@
 numpy
+
+[testing]
+pytest
+pytest-cov
+mypy
+flake8
+tox

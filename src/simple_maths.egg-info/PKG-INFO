@@ -8,3 +8,9 @@ Platform: win32
 Classifier: Programming Language :: Python :: 3
 Requires-Python: >=3.9
 Requires-Dist: numpy
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+Requires-Dist: mypy; extra == "testing"
+Requires-Dist: flake8; extra == "testing"
+Requires-Dist: tox; extra == "testing"
